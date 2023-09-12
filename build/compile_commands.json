@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/workspaces/CU/build",
-  "command": "/usr/bin/gcc   -g -o CMakeFiles/learnC.dir/main.c.o -c /workspaces/CU/Semister-1/prob_solving/learnC/main.c",
-  "file": "/workspaces/CU/Semister-1/prob_solving/learnC/main.c",
-  "output": "CMakeFiles/learnC.dir/main.c.o"
-}
-]

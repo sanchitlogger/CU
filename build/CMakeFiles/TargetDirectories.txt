@@ -1,3 +1,0 @@
-/workspaces/CU/build/CMakeFiles/learnC.dir
-/workspaces/CU/build/CMakeFiles/edit_cache.dir
-/workspaces/CU/build/CMakeFiles/rebuild_cache.dir
