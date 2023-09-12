@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/sanchitlogger/projects/CU/Semister-1/prob_solving/learnC/build",
+  "command": "/usr/bin/gcc -g -o CMakeFiles/learnC.dir/main.c.o -c /home/sanchitlogger/projects/CU/Semister-1/prob_solving/learnC/main.c",
+  "file": "/home/sanchitlogger/projects/CU/Semister-1/prob_solving/learnC/main.c",
+  "output": "CMakeFiles/learnC.dir/main.c.o"
+}
+]
