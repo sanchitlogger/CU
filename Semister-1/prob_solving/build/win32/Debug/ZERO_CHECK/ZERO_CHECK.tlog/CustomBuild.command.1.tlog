@@ -1,0 +1,10 @@
+^C:\USERS\SANCH\SOURCE\REPOS\SANCHITLOGGER\CU\SEMISTER-1\PROB_SOLVING\BUILD\CMAKEFILES\4FF1091F31F75D79A9BB0E8FFBA17C08\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sanch/source/repos/sanchitlogger/CU/Semister-1/prob_solving/learnC -BC:/Users/sanch/source/repos/sanchitlogger/CU/Semister-1/prob_solving/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/sanch/source/repos/sanchitlogger/CU/Semister-1/prob_solving/build/learnC.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

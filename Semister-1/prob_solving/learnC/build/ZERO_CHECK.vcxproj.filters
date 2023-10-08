@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sanch\source\repos\sanchitlogger\CU\Semister-1\prob_solving\learnC\build\CMakeFiles\541ebf047156857fe2df2a0d7d9e8bad\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5358A107-9604-3937-AC1D-B28677D0A83B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

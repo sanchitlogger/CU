@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sanch\source\repos\sanchitlogger\CU\Semister-1\prob_solving\learnC\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sanch\source\repos\sanchitlogger\CU\Semister-1\prob_solving\learnC\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F72F28D-69D7-35B1-B454-AE13FA4203B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

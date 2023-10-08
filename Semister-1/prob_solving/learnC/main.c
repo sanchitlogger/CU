@@ -38,13 +38,29 @@ int oper(){
 	return 0;
 };
  
+int exp4_1(){
+	int cou =0,nc=0,sum=0;
+	float avg;
+	printf("Program to find sum and avg of number between 1 t0 300 divisible by 7.\n");
+	for(cou=1;cou<300;++cou){
+		if (cou%2!=0){
+			if (cou%7==0){
+				sum +=cou;
+				++nc;
+			};
+		};
+	};
+	avg = sum/nc;
+	printf("The sum is %d and average is %f",sum,avg);
+	return 0;
+}
 int main(){
 	char nm[20];
 	printf("Enter Name :");
 	scanf("%s",&nm);
 	printf("Namaste %s!\n",nm);
 
-	printf("Operations Programs\n");
-	oper();
+exp4_1();
+	
 	return 0;
 }

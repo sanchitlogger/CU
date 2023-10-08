@@ -1,3 +1,3 @@
-/home/sanchitlogger/projects/CU/Semister-1/prob_solving/learnC/build/CMakeFiles/learnC.dir
-/home/sanchitlogger/projects/CU/Semister-1/prob_solving/learnC/build/CMakeFiles/edit_cache.dir
-/home/sanchitlogger/projects/CU/Semister-1/prob_solving/learnC/build/CMakeFiles/rebuild_cache.dir
+C:/Users/sanch/source/repos/sanchitlogger/CU/Semister-1/prob_solving/learnC/build/CMakeFiles/learnC.dir
+C:/Users/sanch/source/repos/sanchitlogger/CU/Semister-1/prob_solving/learnC/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/sanch/source/repos/sanchitlogger/CU/Semister-1/prob_solving/learnC/build/CMakeFiles/ZERO_CHECK.dir
