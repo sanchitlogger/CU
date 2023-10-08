@@ -54,13 +54,52 @@ int exp4_1(){
 	printf("The sum is %d and average is %f",sum,avg);
 	return 0;
 }
+
+int table(int n){
+	printf("Table of %d is: \n",n);
+	for(int i=1;i<=10;++i){
+		printf("%d * %d =%d",n,i,i*n);
+		printf("\n");
+	};
+	return 0;
+}
+
+int fabonacci(n){
+	printf("Fabonacci of %d series is:",n);
+	int ii;
+	for(int i = 0;i<=n;++i){
+		if (i==0){
+		printf("  %d",i);
+		}
+		else{
+
+		};
+ii = i;
+	};
+
+	printf("%d",);
+	return 0;
+};
+int pattern(){
+	int i;
+	for (i=1;i<=10;++i){
+
+	};
+};
+
 int main(){
+	/*
 	char nm[20];
 	printf("Enter Name :");
 	scanf("%s",&nm);
 	printf("Namaste %s!\n",nm);
-
-exp4_1();
+	*/
 	
-	return 0;
+
+int i = 1234;
+int *ptr;
+ptr =&i;
+printf(ptr[0]);
+	
+return 0;
 }

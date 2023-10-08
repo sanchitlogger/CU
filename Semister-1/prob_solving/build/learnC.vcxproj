@@ -305,7 +305,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\sanch\source\repos\sanchitlogger\CU\Semister-1\prob_solving\learnC\src\main.c" />
+    <ClCompile Include="C:\Users\sanch\source\repos\sanchitlogger\CU\Semister-1\prob_solving\learnC\main.c" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\sanch\source\repos\sanchitlogger\CU\Semister-1\prob_solving\build\ZERO_CHECK.vcxproj">

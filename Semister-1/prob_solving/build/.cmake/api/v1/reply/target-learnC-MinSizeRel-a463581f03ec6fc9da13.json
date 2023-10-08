@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/learnC.exe"
+			"path" : "MinSizeRel/learnC.exe"
 		},
 		{
-			"path" : "Release/learnC.pdb"
+			"path" : "MinSizeRel/learnC.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O1 /Ob1 /DNDEBUG"
 				}
 			],
 			"language" : "C",
@@ -60,7 +60,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O1 /Ob1 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -96,7 +96,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/main.c",
+			"path" : "main.c",
 			"sourceGroupIndex" : 0
 		}
 	],
