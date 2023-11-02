@@ -55,6 +55,50 @@ int exp4_1(){
 	return 0;
 }
 
+int power(int x, unsigned int y)
+{
+    if (y == 0)
+        return 1;
+    if (y % 2 == 0)
+        return power(x, y / 2) * power(x, y / 2);
+    return x * power(x, y / 2) * power(x, y / 2);
+};
+ 
+int isprime(int num){
+int cou = 0;
+for(int i =1;i<=num;++i){
+	if (num/i==0){
+		++cou;
+	};
+};
+if (cou>2){
+	return 1;
+}
+else{
+	return 0;
+};
+};
+
+int isArmstrong(int x)
+{
+    int n ;
+    while (x) {
+        n++;
+        x = x / 10;
+    }
+    int temp = x, sum = 0;
+    while (temp) {
+        int r = temp % 10;
+        sum += power(r, n);
+        temp = temp / 10;
+    }
+ 
+     if (sum == x)
+        return 1;
+    else
+        return 0;
+};
+
 int table(int n){
 	printf("Table of %d is: \n",n);
 	for(int i=1;i<=10;++i){
@@ -77,7 +121,7 @@ int fabonacci(n){
 ii = i;
 	};
 
-	printf("%d",);
+	printf("%d");
 	return 0;
 };
 int pattern(){
@@ -94,12 +138,12 @@ int main(){
 	scanf("%s",&nm);
 	printf("Namaste %s!\n",nm);
 	*/
-	
-
-int i = 1234;
-int *ptr;
-ptr =&i;
-printf(ptr[0]);
-	
+	printf("Nemeste!\n");
+	if (isArmstrong(153)==1){
+		printf("It is armstrong number.");
+	}
+	else{
+		printf("IT is not armstrong number.");
+	}
 return 0;
 }
